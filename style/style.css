@@ -1,3 +1,125 @@
+.about {
+width: 75%;
+margin: auto;
+padding: 10px;
+text-align: justify;
+}
+
+.about__heading {
+    background-color:rgb(39, 141, 131);
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    color: #343434;
+}
+
+.about__heading::first-letter {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+.about__paragraph {
+    text-align: justify;
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color:  rgb(18, 75, 69);
+}
+
+.feedback__client {
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.feedback__title {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(18, 75, 69);
+}
+
+.stclient {
+    width: 25%;
+    height: 140px;
+    float: left;
+    margin-right: 20px;
+}
+
+.ndclient {
+    width: 25%;
+    height: 140px;
+    float: right;
+    margin-left: 20px;
+}
+
+.clientname {
+    color:  rgb(18, 75, 69);
+}
+
+.clientfeedback {
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+}
+/*Read More button*/
+
+#more {
+    display: none;
+    font-family: 'Handlee', cursive;
+    line-height: 2;
+}
+
+.numeral {
+    color:  rgb(18, 75, 69);
+    font-weight: bold;
+}
+
+#btn {
+    background-color: white;
+    border: none;
+    color: rgb(18, 75, 69);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* make my webpages responsive for mobile screens */
+@media (max-width: 425px) {
+    body {
+        padding: 0;
+    }
+    .about {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about__paragraph {
+        text-align: start;
+    }
+
+    .feedback__client {
+        display: block;
+    }
+
+    .feedback__client img {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .ndclient {
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px){
+    .about {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+
+}
 
 .team{
     max-width: 100%;
