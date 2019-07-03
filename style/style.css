@@ -143,3 +143,260 @@ form {
 .showUpBtn {
     transform: scale(1);
 }
+.about {
+width: 75%;
+margin: auto;
+padding: 10px;
+text-align: justify;
+}
+
+.about__heading {
+    background-color:rgb(39, 141, 131);
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    color: #343434;
+}
+
+.about__heading::first-letter {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+.about__paragraph {
+    text-align: justify;
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color:  rgb(18, 75, 69);
+}
+
+.feedback__client {
+    margin: auto;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.feedback__title {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(18, 75, 69);
+}
+
+.stclient {
+    width: 25%;
+    height: 140px;
+    float: left;
+    margin-right: 20px;
+}
+
+.ndclient {
+    width: 25%;
+    height: 140px;
+    float: right;
+    margin-left: 20px;
+}
+
+.clientname {
+    color:  rgb(18, 75, 69);
+}
+
+.clientfeedback {
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+}
+/*Read More button*/
+
+#more {
+    display: none;
+    font-family: 'Handlee', cursive;
+    line-height: 2;
+}
+
+.numeral {
+    color:  rgb(18, 75, 69);
+    font-weight: bold;
+}
+
+#btn {
+    background-color: white;
+    border: none;
+    color: rgb(18, 75, 69);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* make my webpages responsive for mobile screens */
+@media (max-width: 425px) {
+    body {
+        padding: 0;
+    }
+    .about {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about__paragraph {
+        text-align: start;
+    }
+
+    .feedback__client {
+        display: block;
+    }
+
+    .feedback__client img {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .ndclient {
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px){
+    .about {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+
+}
+
+.team{
+    max-width: 100%;
+    height: 100vh;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+
+}
+.team__members{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.team__member{
+  
+  display:flex;
+  flex: 1;
+  
+
+}
+.team__img{
+    float: left;
+    margin-right: 50px;
+    width: 200px;   
+    box-shadow: 5px 5px rgb(175, 173, 173);
+
+}
+.team__info{
+  display: flex;
+  width: 50%;
+  margin-top: 2px;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 20px;
+ 
+}
+.team_membertitel{
+  margin-top: 0;
+}
+.team-memberSummry{
+  font-size: 14px;
+  font-family:Haettenschweiler;
+}
+.team__memberSM{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+.team__fa{
+    float: left;
+    padding: 5px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    background: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 1;
+  }
+  
+  .fa-github{
+   
+    color: white;
+  }
+  .fa-google {
+  
+    color: white;
+  }
+  
+  .fa-linkedin {
+  
+    color: white;
+  }
+
+  @media (max-width:700px){
+    .team{
+      padding: 10px 10px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+    .team__members{
+      display: flex;
+      width: 100%;
+      height: 400px;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .team__member{
+      margin-top: 0;
+    }
+    .team__img{
+      text-align: center;
+      height: 140px;
+      width: 33%;
+    }
+    .team__info{
+      margin: 0;
+      width: 50%;
+      float: left;
+    }
+    .team__membername{
+      font-size: 12px;
+      margin: 0;
+      
+    }
+    .team_membertitel{
+      font-size: 10px;
+      margin: 0;
+    }
+    .fa {
+      padding: 5px;
+      font-size: 2px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    .team__memberSM{
+      margin: 0;
+    }
+  }
