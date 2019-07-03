@@ -16,6 +16,7 @@
         </nav>
     </header>
     <main>
+        <button id='upBtn' class="upBtn">Up</button>
         <section class="home">
 
         </section>
@@ -121,11 +122,25 @@
 
         </section>
         <section class="contact">
-            
+            <div class="content__container">
+                <h1 class="content__container__title">get in touch</h1>
+                <p class="content__container__para">Let’s talk about your project. Contact us today and we’ll get the ball rolling!</p>
+                <form action="">
+                    <div class="content__container_labels">
+                        <input class="content__container__info" type="text" aria-label="fname" placeholder="First Name">
+                        <input class="content__container__info" type="text" aria-label="lname" placeholder="Last Name">
+                       <input type="email" class="content__container__info"  aria-label="email" placeholder=" email address"> 
+                    </div>
+
+                    <textarea name="info" class='content__container__info' aria-label="textarea" cols="30" rows="10" placeholder=" Enter your Comments "></textarea>
+                    <button class="content__container__btn">Submit</button></form>
+            </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <span class="copyright">© 2019 Code wizards, GCG | Our values  | Teams Roles </span>
+        </div>
     </footer>
     <script src="app/app.js"></script>
 </body>
