@@ -1,3 +1,4 @@
+// Targeting the navbar and the button
 const nav = document.querySelector(".home__header-navbar");
 const toggle = document.querySelector(".home__label");
 const intro = document.querySelector(".home__intro");
