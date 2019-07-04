@@ -189,14 +189,6 @@
   text-transform: uppercase;
 }
 
-/*
-.about__heading::first-letter {
-  text-transform: uppercase;
-  font-size: 3rem;
-  padding-left: 10px;
-}
-*/
-
 .about__paragraph {
   font-family: "Roboto";
   text-align: justify;
@@ -334,7 +326,7 @@ a {
   justify-content: space-around;
   padding: 30px 60px;
   font-family: "Roboto";
-  flex-direction: column;
+
 }
 .team__member {
   display: flex;
@@ -599,4 +591,3 @@ form {
     text-align: center;
 }
 
-}
